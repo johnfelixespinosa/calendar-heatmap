@@ -8,6 +8,16 @@ function App() {
     <div className="App">
 
       <CalendarHeatmap
+        showWeekdayLabels={true}
+        weekdayLabels={[
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thur",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]}
         startDate={new Date('2015-02-01')}
         endDate={new Date('2016-02-01')}
         values={[
